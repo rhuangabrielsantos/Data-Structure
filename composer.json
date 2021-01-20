@@ -1,6 +1,6 @@
 {
-    "name": "rhuangabrielsantos/boilerplate-php",
-    "description": "A simple boilerplate for php projects with docker and composer",
+    "name": "rhuangabrielsantos/data-structure-php",
+    "description": "A project for study data structures",
     "license": "MIT",
     "authors": [
         {
@@ -8,17 +8,20 @@
             "email": "rhuan.santos@db1.com.br"
         }
     ],
+    "scripts": {
+        "tests": "./vendor/bin/phpunit --colors tests"
+    },
     "require": {
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "BoilerplatePHP\\": "src/"
+            "DataStructure\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BoilerplateTests\\": "tests/"
+            "DataStructureTests\\": "tests/"
         }
     }
 }
