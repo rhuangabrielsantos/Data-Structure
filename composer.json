@@ -1,0 +1,24 @@
+{
+    "name": "rhuangabrielsantos/boilerplate-php",
+    "description": "A simple boilerplate for php projects with docker and composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rhuan Gabriel",
+            "email": "rhuan.santos@db1.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BoilerplatePHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BoilerplateTests\\": "tests/"
+        }
+    }
+}
