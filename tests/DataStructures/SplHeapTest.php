@@ -1,6 +1,6 @@
 <?php
 
-namespace DataStructureTests;
+namespace DataStructureTests\DataStructures;
 
 use DataStructure\Championship;
 use PHPUnit\Framework\Assert;

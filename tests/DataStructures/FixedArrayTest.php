@@ -1,6 +1,6 @@
 <?php
 
-namespace DataStructureTests;
+namespace DataStructureTests\DataStructures;
 
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
